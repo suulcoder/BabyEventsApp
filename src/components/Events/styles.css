@@ -1,0 +1,19 @@
+.events{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-bottom: 50px;
+    overflow-x: auto;
+}
+.eventContainer{
+    display: flex;
+    flex-direction: row;
+}
+.eventsTittle{
+    color: white;
+    padding: 2px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: xx-large;
+}

@@ -1,0 +1,10 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+@media (max-width: 1040px){
+    .content{
+        flex-wrap: wrap;
+    }
+}

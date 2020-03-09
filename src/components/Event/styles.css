@@ -1,0 +1,41 @@
+.event{
+    background-color: indigo;
+    border-color: green;
+    border-radius: 55px;
+    border-style: double;
+    border-width: 7px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 25px;
+    padding: 20px;
+}
+.date{
+    display: flex;
+    font-size: 8px;
+    justify-content: flex-end;
+    margin-left: 50px;
+}
+.delete{
+    background-color: green;
+    border-radius: 15px;
+    border: indigo;
+    color: white;
+    margin-left: 25px;
+    min-height: 30px;
+    min-width: 30px;
+  }
+.mytype{
+    font-size: large;
+    margin-left: 25px;
+}
+.info{
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    font-size: xx-small;
+    margin-left: 1px;
+    overflow:auto
+}

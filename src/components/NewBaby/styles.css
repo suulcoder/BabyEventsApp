@@ -1,0 +1,38 @@
+.appState{
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+}
+.addBaby{
+    align-items: center;
+    background-color: lightseagreen;
+    border-radius: 11px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    justify-content: center;
+    margin-top: 70px;
+}
+.myInput{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    min-width: 250px;
+    padding: 9px;
+}
+.button{
+    background-color: indigo;
+    border-color: lightseagreen;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    min-height: 35px;
+    min-width: 85px;
+}

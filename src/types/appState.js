@@ -1,0 +1,1 @@
+export const appstate_changed = 'APPSTATE_CHANGED'

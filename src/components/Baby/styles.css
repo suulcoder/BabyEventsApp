@@ -1,0 +1,37 @@
+.baby{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px 40px 20px 40px;
+    align-items: baseline;
+    background-color: lightseagreen;
+}
+
+.select{
+    background-color: indigo;
+    border-color: lightseagreen;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    margin-right: 50px;
+    min-height: 10px;
+    min-width: 200px;
+    padding: 10px;
+}
+.bar2{
+    background-color: indigo;
+    height: 3px;
+}
+.button2{
+    background-color: indigo;
+    border-color: lightseagreen;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    min-height: 35px;
+    min-width: 45px;
+}
