@@ -9,6 +9,22 @@ import AddEvent from '../AddEvent'
 
 const AppState = ({app}) => (
     <Fragment>
+        <Fragment>
+            <div className="header">
+                <div className="tittle">
+                    <h1>
+                        {'BABY EVENTS'}
+                    </h1>
+                </div>
+                <div className="author">
+                    <h2>
+                        {'Made By: SuulCoder'}
+                    </h2>
+                </div>
+            </div>
+            <div className="empty"></div>
+            <div className="bar"></div>
+        </Fragment>
         {
             app ? (
                 <NewBaby></NewBaby>
