@@ -4,6 +4,7 @@ import * as selectors from '../../reducers'
 import { connect } from 'react-redux';
 import * as actions from '../../actions/events'
 
+
 const Event = ({type,date,info,onClick}) => (
     <div className="event">
         <div className="date">

@@ -43,3 +43,4 @@ export const getAllBabies = (state) => state.order.reverse().map(
     id=>getBaby(state,id)
     ).filter(baby=>baby!=null)
 export const getSelectedBaby = state => state.selected;
+export const getBabiesIDs = (state) => state.order

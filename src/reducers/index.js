@@ -15,6 +15,7 @@ export default reducer
 export const getBaby = (state,id) => babySelectors.getBaby(state.babies,id)
 export const getAllBabies = state => babySelectors.getAllBabies(state.babies)
 export const getSelectedBaby = (state) => babySelectors.getSelectedBaby(state.babies)
+export const getBabaiesIDs = (state) => babySelectors.getBabiesIDs(state.babies)
 
 export const getEvent = (state,id) => eventSelectors.getEvent(state.events,id)
 export const getAllEvents = state => eventSelectors.getAllEvents(state.events)
